@@ -6,7 +6,8 @@ const everydaybackpack = new backpack(
     5,
     10,
     10,
-    false
+    false,
+    "December 31, 2021 15:00:00 EST"
 );
 
 const newbackpack = new backpack(
@@ -20,6 +21,7 @@ const newbackpack = new backpack(
 )
 console.log("backpack object is: ",everydaybackpack);
 console.log("backpack object is: ",newbackpack);
-console.log("color ",everydaybackpack.color);
+console.log("date accquired: ", everydaybackpack.dateAccquired);
+console.log("age of backpack: ",everydaybackpack.age());
 
 
