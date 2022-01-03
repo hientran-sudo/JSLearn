@@ -19,6 +19,20 @@ const newbackpack = new backpack(
     10,
     true
 )
+const content = `
+<main>
+        <h1>backpack</h1>
+        <ul>
+            <li>Name ${everydaybackpack.name}</li>
+            <li>Volume ${everydaybackpack.volumn}</li>
+            <li>Color ${everydaybackpack.color}</li>
+            <li>Pocket number ${everydaybackpack.pocketnum}</li>
+            <li>Lid status ${everydaybackpack.lidOpen}</li>
+        </ul>
+</main>
+`;
+document.body.innerHTML=content;
+
 console.log("backpack object is: ",everydaybackpack);
 console.log("backpack object is: ",newbackpack);
 console.log("date accquired: ", everydaybackpack.dateAccquired);
